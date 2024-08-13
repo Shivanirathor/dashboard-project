@@ -1,10 +1,10 @@
-// src/store/dashboardSlice.js
+
 import { createSlice } from '@reduxjs/toolkit';
 
 export const dashboardSlice = createSlice({
   name: 'dashboard',
   initialState: {
-    widgets: [], // Example initial state
+    widgets: [], 
   },
   reducers: {
     addWidget: (state, action) => {
